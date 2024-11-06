@@ -1,0 +1,49 @@
+
+.affectation-dialog-header{
+    background-image: url('src/assets/images/particule.jpg'), linear-gradient(rgba(24, 121, 138, 0.6), rgba(24, 121, 138, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* background-color: var(--color-lanfia-primary-2); */
+
+    background-color: #0b3941;
+    padding: 1rem 1rem;
+}
+.affectation-dialog-header-sub {
+    color: white;
+    
+}
+
+
+.affectation-dialog-header-sub .affectation-agent  {
+    margin-left: 1rem;
+    background-color: white;
+    border-radius: 10rem;
+    
+}
+.affectation-dialog-header-sub .affectation-agent div:first-child {
+   border: 1px solid var(--color-lanfia-primary);
+   border-radius: 40rem;
+   padding: 1rem;
+   height: 4rem;
+   width: 4rem;
+   background-color: var(--color-lanfia-primary);
+    
+}
+.affectation-dialog-header-sub .affectation-agent div:first-child i {
+   color: white;
+    
+}
+.affectation-dialog-header-sub .affectation-agent div:last-child {
+    color: black;
+    
+}
+.affectation-dialog-header-sub .affectation-agent div:last-child p {
+    color: rgba(134, 129, 129, 0.842);
+    
+}
+
+.affectation-dialog-header-sub .affectation-agent div:last-child h6 {
+    color: rgba(44, 43, 43, 0.705);
+    
+}

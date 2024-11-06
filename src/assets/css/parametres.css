@@ -1,0 +1,50 @@
+
+.parametre-conteneur{
+
+}
+
+.parametre-conteneur ul.p-tabview-nav li.p-unselectable-text a{
+    text-decoration: none !important;
+    color: #635f5f !important;
+}
+
+
+.parametre-conteneur ul.p-tabview-nav li.p-unselectable-text.p-highlight a{
+    color: var(--color-lanfia-primary) !important;
+}
+
+
+.parametre-conteneur .p-tabview-nav-content{
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.parametre-conteneur .p-tabview-nav-content .p-tabview-nav{
+    /* background-color: var(--color-lanfia-primary); */
+    background-color: var(--color-lanfia-primary);
+    color: white;
+    border: 1px solid #e5e7eb;
+    border-width: 0 0 0 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.parametre-conteneur .p-tabview-nav-content .p-tabview-nav li.p-unselectable-text{
+    color:#ffffff;
+}
+
+.parametre-conteneur .p-tabview-nav-content .p-tabview-nav li.p-unselectable-text a span{
+    color:#ffffff;
+    transition: all ease-in 0.3s;
+}
+
+.parametre-conteneur .p-tabview-nav-content .p-tabview-nav li.p-unselectable-text.p-tabview-selected{
+    background-color:#ffffff;
+    transition: all ease-in 0.3s;
+    border-radius: 10px;
+}
+.parametre-conteneur .p-tabview-nav-content .p-tabview-nav li.p-unselectable-text.p-tabview-selected a span{
+    color:var(--color-lanfia-primary);
+    transition: all ease-in 0.3s;
+}

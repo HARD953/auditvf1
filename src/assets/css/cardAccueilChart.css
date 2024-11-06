@@ -1,0 +1,22 @@
+.card_accueil_chart{
+    border-radius: 10px;
+}
+
+.card_accueil_chart__header{
+    background-color: var(--color-lanfia-primary-4);
+    color: white;
+    padding: 0.5rem 0.9rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.card_accueil_chart__header h4{
+    font-weight: bolder;
+    /* color: var(--color-lanfia-primary); */
+}
+
+.card_accueil_chart__body{
+    padding: 0px 10px;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+  /* --color-lanfia-primary: #0958d9; */
+  /* --color-lanfia-primary: #5bcadd; */
+  --color-lanfia-primary: #18798a;
+  --color-lanfia-secondary: #09d9;
+  --color-lanfia-primary-2: #18798a;
+  --color-lanfia-primary-3: #0a0f65;
+  --color-lanfia-primary-4: #18798a;
+  --color-lanfia-red: #750707;
+  
+}
+
+
+* {
+ 
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #333; 
+   margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0eeee;
+}
+
+h1 {
+  font-size: 2.5rem; 
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem; 
+}
+
+p {
+  font-size: 1rem; 
+}
+
+small {
+  font-size: 0.875rem; 
+}
+
+
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: var(--color-lanfia-primary) rgba(24, 121, 138, 0.3); 
+}
+
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; 
+    border-radius: 20px !important; 
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(24, 121, 138, 0.3); 
+    border-radius: 20px; 
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color:var(--color-lanfia-primary); 
+    border-radius: 20px; 
+    border: 2px solid rgba(255, 255, 255, 0.2); 
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #145c6b; 
+}
+
+
+.text-lanf-primary{
+  color: var(--color-lanfia-primary);
+}
+
+.p-datatable .p-datatable-header{
+  border: none !important;
+  background-color: #fff;
+  padding-bottom: 2rem;
+}
+.p-datatable .p-datatable-thead{
+  border-top: 3px solid  var(--color-lanfia-primary);
+  padding-top: 1rem !important;
+  
+  
+}
+.p-datatable .p-datatable-thead tr th{
+  border: none !important;
+  background-color: #fff;
+  padding-top: 1rem !important;
+  /* padding-bottom: 2rem; */
+
+  
+}

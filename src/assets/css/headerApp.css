@@ -1,0 +1,53 @@
+
+.header-app-audit{
+
+    overflow-y: auto;
+
+    background-image: url('src/assets/images/particule.jpg'), linear-gradient(rgba(24, 121, 138, 0.6), rgba(24, 121, 138, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+
+    background-color: #0b3941;
+}
+
+
+.header-app-audit .header-dropdown-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 3.5rem;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 0px 0px 0px 20px;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+.header-app-audit .header-dropdown-inner-username{
+    margin: 0px;
+}
+
+.header-app-audit .header-dropdown-inner-avatar{
+    color: #fff;
+    background-color: var(--color-lanfia-primary);
+}
+
+
+
+
+.p-menu.p-component ul li.p-menuitem a.p-menuitem-link{
+    text-decoration: none !important;
+}
+
+
+.p-menu.p-component ul li.p-menuitem.item-deconnexion a.p-menuitem-link span{
+    color: red !important;
+}
+
+
+

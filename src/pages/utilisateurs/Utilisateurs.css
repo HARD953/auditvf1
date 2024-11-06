@@ -1,0 +1,13 @@
+/* Ajoutez cette classe CSS à votre formulaire */
+.vertical-label-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Ajoutez cette classe CSS à chaque élément Form.Item pour ajuster le style */
+  .vertical-label-form .ant-form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px; /* Ajustez la marge entre chaque champ si nécessaire */
+  }
+  

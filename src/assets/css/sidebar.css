@@ -1,0 +1,44 @@
+.sidebar-lanfiatech.ant-layout-sider.ant-layout-sider-dark{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: 5px 1px 2px #000;
+    /* width: 350px !important; */
+    overflow-y: auto;
+
+    background-image: url('src/assets/images/particule.jpg'), linear-gradient(rgba(24, 121, 138, 0.6), rgba(24, 121, 138, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* background-color: var(--color-lanfia-primary-2); */
+
+    background-color: #0b3941;
+}
+
+
+.sidebar-lanfiatch-logo-container{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    /* margin-top: 1rem; */
+    background-color: #fff;
+}
+
+.sidebar-lanfiatch-menu{
+    /* background-color:  var(--color-lanfia-primary-2); */
+    background-color: transparent !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.sidebar-lanfiatech-entreprise{
+    overflow-y: auto;
+    background-image: url('src/assets/images/particule.jpg'), linear-gradient(rgba(24, 121, 138, 0.6), rgba(24, 121, 138, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    /* background-color: var(--color-lanfia-primary-2); */
+
+    background-color: #0b3941;
+}

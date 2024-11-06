@@ -1,0 +1,9 @@
+.card_audit_accueil{
+    border-bottom: 8px solid var(--color-lanfia-primary);
+}
+
+
+.card_audit_accueil__icon{
+    color: var(--color-lanfia-primary) !important;
+}
+
